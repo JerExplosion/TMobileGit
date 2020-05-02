@@ -98,13 +98,13 @@
 		04FB057C23D786DC006BBA26 /* TMobileGithubProject */ = {
 			isa = PBXGroup;
 			children = (
+				04FB05AD23D8919C006BBA26 /* ViewModels */,
+				04FB05AF23D891CA006BBA26 /* Networking */,
 				04FB05B323D8922A006BBA26 /* Operations */,
 				04FB05B223D89207006BBA26 /* Extensions */,
 				04FB05B123D891ED006BBA26 /* Views */,
 				04FB05B023D891DF006BBA26 /* ViewControllers */,
-				04FB05AF23D891CA006BBA26 /* Networking */,
 				04FB05AE23D891B0006BBA26 /* Models */,
-				04FB05AD23D8919C006BBA26 /* ViewModels */,
 				04FB057D23D786DC006BBA26 /* AppDelegate.swift */,
 				04FB057F23D786DC006BBA26 /* SceneDelegate.swift */,
 				04FB058623D786E1006BBA26 /* Assets.xcassets */,
