@@ -99,14 +99,14 @@
 			isa = PBXGroup;
 			children = (
 				04FB05AD23D8919C006BBA26 /* ViewModels */,
-				04FB05AF23D891CA006BBA26 /* Networking */,
 				04FB05B323D8922A006BBA26 /* Operations */,
+				04FB05AF23D891CA006BBA26 /* Networking */,
 				04FB05B223D89207006BBA26 /* Extensions */,
 				04FB05B123D891ED006BBA26 /* Views */,
 				04FB05B023D891DF006BBA26 /* ViewControllers */,
 				04FB05AE23D891B0006BBA26 /* Models */,
-				04FB057D23D786DC006BBA26 /* AppDelegate.swift */,
 				04FB057F23D786DC006BBA26 /* SceneDelegate.swift */,
+				04FB057D23D786DC006BBA26 /* AppDelegate.swift */,
 				04FB058623D786E1006BBA26 /* Assets.xcassets */,
 				04FB058823D786E1006BBA26 /* LaunchScreen.storyboard */,
 				04FB058B23D786E1006BBA26 /* Info.plist */,
@@ -127,11 +127,11 @@
 		04FB05AE23D891B0006BBA26 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				04FB059923D7951A006BBA26 /* User.swift */,
-				04FB059B23D7981E006BBA26 /* UserResponse.swift */,
-				04FB059D23D79F67006BBA26 /* SpecificUserResponse.swift */,
 				04FB059F23D7A31D006BBA26 /* Repository.swift */,
 				04FB05BA23D8D926006BBA26 /* RepositoryResponse.swift */,
+				04FB059D23D79F67006BBA26 /* SpecificUserResponse.swift */,
+				04FB059923D7951A006BBA26 /* User.swift */,
+				04FB059B23D7981E006BBA26 /* UserResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,9 +139,9 @@
 		04FB05AF23D891CA006BBA26 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				04FB059723D7927D006BBA26 /* Session.swift */,
 				04FB059323D78F9C006BBA26 /* NetworkManager.swift */,
 				04FB059523D79032006BBA26 /* NetworkError.swift */,
-				04FB059723D7927D006BBA26 /* Session.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -150,8 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				04FB058123D786DC006BBA26 /* GithubUserSearchViewController.swift */,
-				04FB058323D786DC006BBA26 /* Main.storyboard */,
 				04FB05B823D8B596006BBA26 /* UserDetailViewController.swift */,
+				04FB058323D786DC006BBA26 /* Main.storyboard */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -180,8 +180,8 @@
 		04FB05B323D8922A006BBA26 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				04FB05B423D8923A006BBA26 /* UserOperation.swift */,
 				04FB05B623D89896006BBA26 /* ImageLoadOperation.swift */,
+				04FB05B423D8923A006BBA26 /* UserOperation.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
